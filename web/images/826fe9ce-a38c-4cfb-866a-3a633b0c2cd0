@@ -1,0 +1,21 @@
+{
+  "id": "0bb1c58e-376d-4d70-ae95-8624b8eb36a3",
+  "version": "2.0",
+  "name": "testing",
+  "url": "https://birthdayalarm.com/login?next=/account",
+  "tests": [{
+    "id": "3e8cabc1-26ee-4c02-a630-b5a7008857b5",
+    "name": "Untitled",
+    "commands": []
+  }],
+  "suites": [{
+    "id": "f24cd1e3-13c3-4f8c-87f0-df3b55879e39",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["3e8cabc1-26ee-4c02-a630-b5a7008857b5"]
+  }],
+  "urls": [],
+  "plugins": []
+}

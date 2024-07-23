@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css" integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm" crossorigin="anonymous">
+    </head>
+    <body>
+        <section class="sub-header">
+            <nav>
+                <a href="index.html"><img src="images/2.png"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa-solid fa-xmark"onclick="hideMenu()"></i>
+                    
+                    <ul>
+                       <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="blog.html">BLOG</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fa-regular fa-bars"onclick="showMenu()"></i>
+            </nav>
+            <h1>About US</h1>
+
+        </section>
+        <!-------about us content----------->
+        <section class="about-us">
+            <div class="row">
+                <h1>"Stay on track with location-based alarms!"</h1>
+                <p>Introducing our innovative location-based alarm system - the perfect companion to keep you organized and on top of your tasks! With our system, you can set reminders and alerts that are triggered based on your precise location.<br>Try it now and experience the power of location-based alarms!</p>
+                <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+            </div>
+            <div class="about-col">
+                <img src="images/ab.png">
+            </div>
+        </section>
+        <!------------More of Us-------------->
+     
+        <section class="footer">
+            <h4>About US</h4>
+            <p>One Can Explore This Awsome System </p>
+            <div class="icons">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-linkedin"></i>
+            </div>
+            <p>Made by<i class="fa-regular fa-alarm-clock"></i> Harshita Singh</p>
+        </section>
+    <script>
+        var navLinks=document.getElementById("navLinks");
+        function showMenu(){
+navLinks.style.right="0";
+        }
+        function hideMenu(){
+            navLinks.style.right="-200px";
+        }
+        </script>
+    </body>
+</html>

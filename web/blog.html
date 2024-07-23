@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css" integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm" crossorigin="anonymous">
+    </head>
+    <body>
+        <section class="sub-header">
+            <nav>
+                <a href="index.html"><img src="images/2.png"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa-solid fa-xmark"onclick="hideMenu()"></i>
+                    
+                    <ul>
+                       <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="blog.html">BLOG</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fa-regular fa-bars"onclick="showMenu()"></i>
+            </nav>
+            <h1>"Mastering Productivity<br> with Location-Based Alarms"</h1>
+
+        </section>
+        
+        <!-----------BLOGS- page cotent--------->
+        <section class="blog-content">
+            <div class="row">
+                <div class="blog-left">
+                <img src="images/2b.png">
+                <h2>Enhancing Your Daily Routine </h2>
+                    <p>Welcome to our blog, where we explore the exciting world of location-based alarm systems!</p>
+                    <br>
+                    <p>A location-based alarm system is a smart technology that uses your smartphone's GPS capabilities to trigger alarms or reminders based on your physical location. It allows you to set up personalized alerts that activate when you enter or leave a specific area, such as your home, office, or even a grocery store.</p>
+                    <br>
+                    <p>The system utilizes the GPS data from your smartphone to track your location in real-time. You can set up customized zones or geofences on a map, specifying the areas where you want the alarm to activate. When you enter or exit these designated zones, the system will send you a notification or trigger an alarm, reminding you of important tasks or events.</p>
+                    <div class="comment-box">
+                        <h3>Leave a comment</h3>
+                        <form class="comment-form">
+                            <input type="text" placeholder="Enter Name">
+                            <input type="text" placeholder="Enter email">
+                            <textarea rows="5" placeholder="Your Comment">
+                            </textarea>
+                            <button type="submit" class="hero-btn red-btn">Post Comment</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="blog-right">
+                <h3>Choose Benefits</h3>
+                    <div>
+                        <span>1. Improved time management</span>
+                    
+                    </div>
+                    <div>
+                        <span>2. Increased Productivity</span>
+                    
+                    </div>
+                    <div>
+                        <span>3. Personalized alerts</span>
+                    
+                    </div>
+                </div>
+            </div>
+      
+        </section>
+        
+        <!--------footer------>
+     
+        <section class="footer">
+            <h4>About US</h4>
+            <p>One Can Explore This Awsome System </p>
+            <div class="icons">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-linkedin"></i>
+            </div>
+            <p>Made by<i class="fa-regular fa-alarm-clock"></i> Harshita Singh</p>
+        </section>
+    <script>
+        var navLinks=document.getElementById("navLinks");
+        function showMenu(){
+navLinks.style.right="0";
+        }
+        function hideMenu(){
+            navLinks.style.right="-200px";
+        }
+        </script>
+    </body>
+</html>

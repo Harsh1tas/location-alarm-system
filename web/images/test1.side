@@ -1,0 +1,104 @@
+{
+  "id": "014b6086-8639-46a7-9357-1dac9d8575c0",
+  "version": "2.0",
+  "name": "testing",
+  "url": "https://birthdayalarm.com/login?next=/account",
+  "tests": [{
+    "id": "235715e6-e281-4874-b97e-1748390d5336",
+    "name": "test1",
+    "commands": [{
+      "id": "02f70eaa-090e-4782-a620-9851646211bc",
+      "comment": "",
+      "command": "open",
+      "target": "https://birthdayalarm.com/login?next=/account",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "dc59d61a-84f1-48d7-9018-fbc8cefb0c8a",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1157x770",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2d5708d7-7c91-4199-ba42-da8cb47bf27d",
+      "comment": "",
+      "command": "click",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=email", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//div[@id='login-component']/form/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "903dc753-4c2e-4013-aed6-02ea5c4ca56d",
+      "comment": "",
+      "command": "type",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=email", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//div[@id='login-component']/form/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "harshita.singh2021@vitstudent.ac.in"
+    }, {
+      "id": "240f8273-e714-4cec-b5c9-4e9969a25720",
+      "comment": "",
+      "command": "click",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[@id='login-component']/form/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bc46c111-f5f4-411b-a6c2-4ba18266ba33",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[@id='login-component']/form/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": "Harshita14"
+    }, {
+      "id": "e6811de8-9cef-405e-9b76-3693b687b3d4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.css-i6tnmf",
+      "targets": [
+        ["css=.css-i6tnmf", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='login-component']/form/div[3]/button", "xpath:idRelative"],
+        ["xpath=//form/div[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Sign In with Email')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "0f6eee8a-201e-4fde-b2e1-73e14f4cf3db",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["235715e6-e281-4874-b97e-1748390d5336"]
+  }],
+  "urls": [],
+  "plugins": []
+}
